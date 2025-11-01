@@ -11,7 +11,7 @@ public class DBConnection {
 
     public static Connection getConnection() {
         try {
-            Class.forName("org.postgresql.Driver"); // обязательно!
+            Class.forName("org.postgresql.Driver");
             return DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
