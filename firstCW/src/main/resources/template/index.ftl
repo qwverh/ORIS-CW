@@ -73,10 +73,7 @@
     </style>
 </head>
 <body>
-<header>
-    <h1>Студенческая база</h1>
-    <p>Управление студентами стало красивым и простым</p>
-</header>
+
 
 <div class="container">
     <a href="add" class="card">Добавить нового студента</a>
